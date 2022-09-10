@@ -29,7 +29,7 @@ from scipy import stats
 # Deep Learning (Keras, Tensorflow)
 import tensorflow as tf
 from keras.models import Sequential
-from keras.optimizers import SGD,RMSprop, Adam
+from tensorflow.keras.optimizers import SGD,RMSprop, Adam
 from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import MaxPooling2D,ZeroPadding2D,Conv2D
 from keras.utils.np_utils import to_categorical
